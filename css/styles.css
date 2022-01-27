@@ -1,13 +1,23 @@
 /********************* TAG SELECTORS *****************/
 body {
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
+
+  margin: 0;
+  text-align: center; /* alinha toda a pagina */
+  
+
 }
 
 h1{
-  margin-top: 0;
-  margin-bottom: 0;
+margin-top: 0;
+/*
+margin:
+- 4 valores / 1ª - topo 2ª - direita 3ª - inferior 4ª - Esquerda
+- 2 Valores / 1ª - topo e inferior 2ª - esquerda e direita
+- 3 Valores / 1ª - topo 2ª - Esquerda e direita 3ª-inferior
+- se for criado um bloco com "width", será necessário rever as margens */
+
+
+
 }
 
 
@@ -16,6 +26,8 @@ h1{
 /********************* CLASS SELECTORS *****************/
 .top-container {
   background-color: #F6D860;
+  position: relative;
+  padding-top: 100px;
 }
 
 .middle-container {
@@ -34,5 +46,19 @@ h1{
   text-decoration: underline;
   background-color: gold;
 }
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+
+  }
 
 /********************* ID SELECTORS *****************/
