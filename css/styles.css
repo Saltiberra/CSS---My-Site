@@ -161,4 +161,9 @@ font-size: 0.75rem;
 padding: 20px 0;
 }
 
+.facebook {
+position: absolute;
+  width: 10%;
+}
+
 /********************* ID SELECTORS *****************/
