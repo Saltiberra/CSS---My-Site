@@ -2,7 +2,8 @@
 body {
   margin: 0;
   text-align: center;
-font-family: 'Merriweather Sans', sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #2D767F;
   /* alinha o texto em toda a pagina */
 }
 
@@ -18,7 +19,7 @@ h1 {
   font-size: 5.625rem;
   color: #2D767F;
   line-height: 2
-  /*  100% são 16px, para ter 90, (90*100)/16 =562.5%
+    /*  100% são 16px, para ter 90, (90*100)/16 =562.5%
    16px = 100€ = 1em
    90px/16px = 5,625em
    rem = root- o mais aconselhado a usar
@@ -28,20 +29,19 @@ h1 {
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
-  color: #2D767F;
+  color: #1E6262;
   font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
-  color: #1E6262;
-
+  color: #2D767F;
 }
 
 /********************* SUDO SELECTORS *****************/
 /********************* CLASS SELECTORS *****************/
 .top-container {
-  background-color: #B4F1F1;
+  background-color: #ECFFFB;
   padding-top: 100px;
   position: relative;
 }
@@ -58,28 +58,20 @@ h3 {
   bottom: 300px;
 }
 
-
-
 .middle-container {
-  background-color: #B4F1F1;
-
-
-
+  background-color: #ECFFFB;
 }
 
-
 .eu {
-margin-top: 50px;
-
+  margin-top: 50px;
 }
 
 .bottom-container {
-  background-color: #B4F1F1;
+  background-color: #ECFFFB;
 }
 
 .super {
   text-decoration: underline;
-
 }
 
 .supervisor {
@@ -88,26 +80,23 @@ margin-top: 50px;
   line-height: 2;
 }
 
-
 .skill-row {
-
   width: 50%;
   margin: 100px auto 100px auto;
-    text-align: left;
-    line-height: 2;
-  }
+  text-align: left;
+  line-height: 2;
+}
 
-  .boneco {
-    width: 25%;
-    float: left;
-    margin-right: 30px;
-  }
-  .lift {
-    width: 25%;
-    float: right;
-    margin-left: 30px;
-  }
+.boneco {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
 
-
+.lift {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
 
 /********************* ID SELECTORS *****************/
